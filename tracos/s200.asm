@@ -1,0 +1,219 @@
+.text
+    addi $1, $zero, 7
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_0
+    addi $1, $zero, 7
+depois_do_desvio_0:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_1
+    addi $1, $zero, 7
+depois_do_desvio_1:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_2
+    addi $1, $zero, 7
+depois_do_desvio_2:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_3
+    addi $1, $zero, 7
+depois_do_desvio_3:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_4
+    addi $1, $zero, 7
+depois_do_desvio_4:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_5
+    addi $1, $zero, 7
+depois_do_desvio_5:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_6
+    addi $1, $zero, 7
+depois_do_desvio_6:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_7
+    addi $1, $zero, 7
+depois_do_desvio_7:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_8
+    addi $1, $zero, 7
+depois_do_desvio_8:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_9
+    addi $1, $zero, 7
+depois_do_desvio_9:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_10
+    addi $1, $zero, 7
+depois_do_desvio_10:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_11
+    addi $1, $zero, 7
+depois_do_desvio_11:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_12
+    addi $1, $zero, 7
+depois_do_desvio_12:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_13
+    addi $1, $zero, 7
+depois_do_desvio_13:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_14
+    addi $1, $zero, 7
+depois_do_desvio_14:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    slt $7, $2, $1
+    sw $1, 4($zero)
+    lw $8, 4($zero)
+    beq $1, $2, depois_do_desvio_15
+    addi $1, $zero, 7
+depois_do_desvio_15:
+    addi $2, $zero, -3
+    addi $10, $zero, 15
+    addi $11, $zero, 21
+    sub $3, $1, $2
+    add $4, $1, $2
+    and $5, $1, $2
+    or $6, $1, $2
+    break
+    addi $9, $zero, 99
